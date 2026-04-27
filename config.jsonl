@@ -1,0 +1,231 @@
+250624 07:08:05.704 [INFO][12496..init(with:)] Log started, build: 1.10.1.58e5229
+250624 17:28:45.197 [INFO][1109..init(with:)] Log started, build: 1.10.1.58e5229
+250624 17:28:45.201 [INFO][1109.AppDelegate.application] App version: 1.10.1 (2504161949)
+250624 17:28:45.202 [INFO][1109.AppDelegate.application] Locale: en_US
+250624 17:28:45.214 [INFO][1109.Configuration+Structs.defaultSettings] Generate DNSSettings: Warp Enabled: true | DNSProtocol: dow
+250624 17:28:45.246 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:45.247 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Started
+250624 17:28:45.248 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:45.248 [INFO][1109.WarpApi.apiEndpoint] Current base API URL: https://zero-trust-client.cloudflareclient.com/v0i2504161949
+250624 17:28:45.250 [INFO][1109.TranslationShim.translateSettings] 
+250624 17:28:45.251 [INFO][1109.TeamsConfigLoader.loadConfiguration] Loading the Teams configuration has started. Source: mdm
+250624 17:28:45.251 [INFO][1109.TeamsConfigLoader.rawConfig] MDM configuration not found for team: web4app.
+250624 17:28:45.251 [INFO][1109.TeamsConfigLoader.rawConfig] No MDM configurations found.
+250624 17:28:45.252 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_mdm_policy: nil
+250624 17:28:45.253 [INFO][1109.TeamsConfigLoader.rawConfig] MDM configuration not found for team: web4app.
+250624 17:28:45.253 [INFO][1109.TeamsConfigLoader.rawConfig] No MDM configurations found.
+250624 17:28:45.253 [INFO][1109.TeamsConfigLoader.loadConfiguration] The Teams config is missing. No configuration will be loaded.
+250624 17:28:45.256 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:45.257 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Started
+250624 17:28:45.258 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:45.258 [INFO][1109.WarpApi.apiEndpoint] Current base API URL: https://zero-trust-client.cloudflareclient.com/v0i2504161949
+250624 17:28:45.271 [INFO][1109.NotificationsManager.remoteNotificationsEnabled] Registering for remote notifications.
+250624 17:28:45.301 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:28:45.358 [INFO][1109.AppDelegate.applicationDidBecomeActive] 
+250624 17:28:45.363 [INFO][1109.AppDelegate.application] Did register for remote notifications and acquired a new device token.
+250624 17:28:45.377 [INFO][1109.NotificationsManager.apnsToken] Setting up FCM with new APNS token.
+250624 17:28:45.379 [INFO][1109.TunnelManager.loadDefaultManager] Loaded default manager
+250624 17:28:45.382 [INFO][1109.NotificationsManager.messaging] FCM registration token: cu8DhvXhpEYpkQosQceS0s:APA91bG6ug_WpphC010Zf3YiEhmAF1B9g7LJrhqHt5g6kulaRbuQYaaTwOkSiOas9YB11XMG_K8T-Q2UCeIWfD1ERT-3H2f2Cjgvk_Uy1Eu1UJGetulwEok
+250624 17:28:45.382 [INFO][1109.NotificationsManager.fcmToken] Updated fcmToken from nil to Optional("cu8DhvXhpEYpkQosQceS0s:APA91bG6ug_WpphC010Zf3YiEhmAF1B9g7LJrhqHt5g6kulaRbuQYaaTwOkSiOas9YB11XMG_K8T-Q2UCeIWfD1ERT-3H2f2Cjgvk_Uy1Eu1UJGetulwEok")
+250624 17:28:45.383 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:45.384 [INFO][1109.WarpApi.apiEndpoint] Current base API URL: https://zero-trust-client.cloudflareclient.com/v0i2504161949
+250624 17:28:45.384 [INFO][1109.WarpApi+Registration.patch] Started
+250624 17:28:45.385 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:45.385 [INFO][1109.NotificationsManager.retrieveNewFCMToken] New FCM registration token: cu8DhvXhpEYpkQosQceS0s:APA91bG6ug_WpphC010Zf3YiEhmAF1B9g7LJrhqHt5g6kulaRbuQYaaTwOkSiOas9YB11XMG_K8T-Q2UCeIWfD1ERT-3H2f2Cjgvk_Uy1Eu1UJGetulwEok
+250624 17:28:45.385 [INFO][1109.TunnelManager.updateProxySettings] Proxy settings have not changed
+250624 17:28:46.485 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Ended
+250624 17:28:46.485 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Received Posture Rules from API. Body: {"success":true,"result":{}}
+250624 17:28:46.486 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_device_posture: Optional([])
+250624 17:28:46.496 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:49.083 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Ended
+250624 17:28:49.087 [INFO][1109.WarpApi+DevicePosture.getPostureRules] Received Posture Rules from API. Body: {"success":true,"result":{}}
+250624 17:28:49.091 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_device_posture: Optional([])
+250624 17:28:49.106 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:50.277 [INFO][1109.AppCoordinator.startInterface] Initialization timed out.
+250624 17:28:50.289 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_dark_theme: true
+250624 17:28:50.315 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_presented_onboarding: true
+250624 17:28:50.317 [INFO][1109.AppCoordinator.didFinishOnboarding] Finished the onboarding and show the profile installation if needed.
+250624 17:28:50.318 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: disconnected
+250624 17:28:50.319 [INFO][1109.TunnelManager.loadDefaultManager] Loaded default manager
+250624 17:28:50.320 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:50.321 [INFO][1109.TunnelManager.updateProxySettings] Proxy settings have not changed
+250624 17:28:50.326 [INFO][1109.AppCoordinator.presentMainView] Start and show the main screen
+250624 17:28:50.368 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: WARP
+250624 17:28:50.369 [INFO][1109.DeviceTeamsClientDetailsSender.sendDeviceDetailsIfNeeded] Attempt to send device details to the server has started.
+250624 17:28:50.371 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_teams_correlation_id} is found.
+250624 17:28:50.374 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:50.374 [INFO][1109.WarpApi+Registration.patch] Started
+250624 17:28:50.391 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:28:50.395 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:50.398 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:50.409 [INFO][1109.ScreenName.logScreen] main
+250624 17:28:50.410 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:28:50.413 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:50.898 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:50.902 [INFO][1109.WarpApi+Config.getWarpConfig] Started
+250624 17:28:50.904 [INFO][1109.WarpApi+Config.getWarpConfig] New Config Request without alternate network
+250624 17:28:50.906 [INFO][1109.WarpApi+Config.getWarpCommonConfig] Started
+250624 17:28:50.908 [INFO][1109.WarpApi.apiEndpoint] Current base API URL: https://zero-trust-client.cloudflareclient.com/v0i2504161949
+250624 17:28:53.037 [INFO][1109.WarpApi+Registration.patch] Ended
+250624 17:28:53.037 [INFO][1109.DeviceTeamsClientDetailsSender.sendDeviceDetails] Teams device details have been sent to the server.
+250624 17:28:53.067 [INFO][1109.TunnelManager.loadDefaultManager] Loaded default manager
+250624 17:28:53.068 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:53.069 [INFO][1109.TunnelManager.updateProxySettings] Proxy settings have not changed
+250624 17:28:53.111 [INFO][1109.TunnelManager.enable] Enabled
+250624 17:28:53.111 [INFO][1109.TunnelManager.loadDefaultManager] Loaded default manager
+250624 17:28:53.112 [INFO][1109.TunnelManager.enable] Starting VPN tunnel after enable action
+250624 17:28:53.113 [INFO][1109.TunnelManager.enable] Enabled
+250624 17:28:53.114 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:28:53.116 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] Starting DNS TXT record query...
+250624 17:28:53.127 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: WARP
+250624 17:28:53.129 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: disconnected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: WARP
+250624 17:28:53.132 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:53.154 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:53.161 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connecting
+250624 17:28:53.161 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connecting
+250624 17:28:53.162 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connecting
+250624 17:28:53.162 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connecting
+250624 17:28:53.162 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:53.163 [INFO][1109.TunnelManager.updateProxySettings] Proxy settings have not changed
+250624 17:28:53.206 [INFO][1109.TunnelManager.loadDefaultManager] Loaded default manager
+250624 17:28:53.206 [INFO][1109.ServiceManager.vpnStatusDidChange] Loading dummy URL to force OS to restart the network extension process.
+250624 17:28:53.208 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:53.209 [INFO][1109.TunnelManager.updateProxySettings] Proxy settings have not changed
+250624 17:28:54.114 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connecting, pause: none, trusted network: none, tunnel status: No captive portal, dns status: unknown, service mode: WARP
+250624 17:28:54.119 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:54.250 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connected
+250624 17:28:54.252 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connected
+250624 17:28:54.254 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connected
+250624 17:28:54.256 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connected
+250624 17:28:54.258 [INFO][1109.ServiceManager.vpnStatusDidChange] ServiceManager - Tunnel status: connected
+250624 17:28:54.347 [INFO][1109.ScreenName.logScreen] settings
+250624 17:28:54.854 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:54.857 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:28:54.922 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:54.942 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_raw_teams_config: Optional(_cloudflareoneagent.PolicyData(team: Optional("web4app"), displayName: nil, enable: nil, dnsMode: nil, dnsLogs: nil, familiesBlockType: nil, gatewayUniqueID: Optional("3c2d8a9226729b067992b8515d7c2a75"), nxFallbackIsEnabled: nil, disableOnCellular: nil, disableOnWiFi: nil, trustedWiFiNetworks: nil, serviceMode: nil, serviceModeV2: Optional(_cloudflareoneagent.ServiceModeApi(mode: Optional("warp"), port: nil)), supportURL: Optional(""), hidden: nil, onboarding: nil, exclude: Optional([_cloudflareoneagent.PolicyDataSplitItem(address: Optional("10.0.0.0/8"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("100.64.0.0/10"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("169.254.0.0/16"), host: nil, description: Optional("DHCP Unspecified")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("172.16.0.0/12"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("192.0.0.0/24"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("192.168.0.0/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("224.0.0.0/24"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("240.0.0.0/4"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("255.255.255.255/32"), host: nil, description: Optional("DHCP Broadcast")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("fe80::/10"), host: nil, description: Optional("IPv6 Link Local")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("fd00::/8"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff01::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff02::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff03::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff04::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff05::/16"), host: nil, description: nil)]), include: nil, fallbackDomains: Optional([_cloudflareoneagent.PolicyDataFallbackDomain(suffix: "home.arpa", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "intranet", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "internal", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "private", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "localdomain", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "domain", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "lan", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "home", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "host", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "corp", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "local", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "localhost", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "invalid", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "test", description: nil, dnsServer: nil)]), autoConnect: Optional(0), switchLocked: Optional(false), alwaysOn: nil, accessClientId: nil, accessClientSecret: nil, accessClientCertificate: nil, allowModeSwitch: Optional(false), managedMode: false, allowLeave: Optional(true), endpointDoH: nil, endpointAPI: nil, endpointWarp: nil, uniqueId: nil, warpTunnelProtocol: Optional(Wireguard)))
+250624 17:28:54.943 [INFO][1109.TeamsConfigLoader.loadConfiguration] Loading the Teams configuration has started. Source: api
+250624 17:28:54.950 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_api_policy: Optional(_cloudflareoneagent.PolicyData(team: Optional("web4app"), displayName: nil, enable: nil, dnsMode: nil, dnsLogs: nil, familiesBlockType: nil, gatewayUniqueID: Optional("3c2d8a9226729b067992b8515d7c2a75"), nxFallbackIsEnabled: nil, disableOnCellular: nil, disableOnWiFi: nil, trustedWiFiNetworks: nil, serviceMode: nil, serviceModeV2: Optional(_cloudflareoneagent.ServiceModeApi(mode: Optional("warp"), port: nil)), supportURL: Optional(""), hidden: nil, onboarding: nil, exclude: Optional([_cloudflareoneagent.PolicyDataSplitItem(address: Optional("10.0.0.0/8"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("100.64.0.0/10"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("169.254.0.0/16"), host: nil, description: Optional("DHCP Unspecified")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("172.16.0.0/12"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("192.0.0.0/24"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("192.168.0.0/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("224.0.0.0/24"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("240.0.0.0/4"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("255.255.255.255/32"), host: nil, description: Optional("DHCP Broadcast")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("fe80::/10"), host: nil, description: Optional("IPv6 Link Local")), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("fd00::/8"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff01::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff02::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff03::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff04::/16"), host: nil, description: nil), _cloudflareoneagent.PolicyDataSplitItem(address: Optional("ff05::/16"), host: nil, description: nil)]), include: nil, fallbackDomains: Optional([_cloudflareoneagent.PolicyDataFallbackDomain(suffix: "home.arpa", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "intranet", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "internal", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "private", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "localdomain", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "domain", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "lan", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "home", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "host", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "corp", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "local", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "localhost", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "invalid", description: nil, dnsServer: nil), _cloudflareoneagent.PolicyDataFallbackDomain(suffix: "test", description: nil, dnsServer: nil)]), autoConnect: Optional(0), switchLocked: Optional(false), alwaysOn: nil, accessClientId: nil, accessClientSecret: nil, accessClientCertificate: nil, allowModeSwitch: Optional(false), managedMode: false, allowLeave: Optional(true), endpointDoH: nil, endpointAPI: nil, endpointWarp: nil, uniqueId: nil, warpTunnelProtocol: Optional(Wireguard)))
+250624 17:28:54.952 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_account_team_name_for_reauthentication: nil
+250624 17:28:54.954 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_teams_switch_locked: Optional(false)
+250624 17:28:54.957 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_teams_auto_connect: Optional(0)
+250624 17:28:54.959 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_teams_switch_locked: Optional(false)
+250624 17:28:54.963 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_dns_log_is_enabled: ConfigManageableItem<Bool>(value: true, locked: true, visible: true)
+250624 17:28:54.967 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_shared_nx_fallback_is_enabled: ConfigManageableItem<Bool>(value: false, locked: true, visible: true)
+250624 17:28:54.970 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_disable_on_cellular: ConfigManageableItem<Bool>(value: false, locked: true, visible: true)
+250624 17:28:54.970 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:54.973 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_disable_on_wifi: ConfigManageableItem<Bool>(value: false, locked: true, visible: true)
+250624 17:28:54.973 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:54.975 [INFO][1109.TunnelManager.updateOnDemandRules] On demand rules updated: [
+    action = connect
+    interfaceTypeMatch = WiFi, 
+    action = connect
+    interfaceTypeMatch = cellular]
+250624 17:28:54.976 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_trusted_wifi_networks: ConfigManageableItem<Array<String>>(value: [], locked: true, visible: true)
+250624 17:28:54.981 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_enable_tunnel_on_start: ConfigManageableItem<Bool>(value: false, locked: false, visible: true)
+250624 17:28:54.988 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_account_team_name: ConfigManageableItem<Optional<String>>(value: Optional("web4app"), locked: true, visible: true)
+250624 17:28:54.989 [INFO][1109.TeamsConfigLoader.loadConfiguration] Loading the Teams config has finished.
+250624 17:28:55.392 [INFO][1109.WarpApi+Registration.patch] Ended
+250624 17:28:55.441 [INFO][1109.ScreenName.logScreen] more_settings
+250624 17:28:56.819 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:56.821 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:57.336 [INFO][1109.ScreenName.logScreen] connection_options
+250624 17:28:58.481 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] DNS TXT record query completed in 5.364640951156616 seconds.
+250624 17:28:58.483 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: doh, service mode: WARP
+250624 17:28:58.489 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:28:59.237 [INFO][1109.ScreenName.logScreen] split_tunnel_excluded
+250624 17:28:59.925 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:28:59.928 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:00.456 [INFO][1109.ScreenName.logScreen] connection_options
+250624 17:29:00.714 [INFO][1109.WarpApi+OverlapIp.getVirtualNetworks] Started
+250624 17:29:00.730 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:00.732 [INFO][1109.WarpApi.apiEndpoint] Current base API URL: https://zero-trust-client.cloudflareclient.com/v0i2504161949
+250624 17:29:00.916 [INFO][1109.WarpApi+Config.getWarpCommonConfig] Ended
+250624 17:29:00.919 [INFO][1109.UserDefaults.wrappedValue] Saved web4app_app_local_warp_api_invalid_state_error: nil
+250624 17:29:00.924 [ERROR][1109.WarpApi+Config.proccessError] _cloudflareoneagent.HttpRequestError.Error(class: "unknown", subclass: "error sending request for url (https://zero-trust-client.cloudflareclient.com/v0i2504161949/client_config)") (code 0)
+250624 17:29:00.926 [ERROR][1109.ServiceManager.setup] _cloudflareoneagent.HttpRequestError.Error(class: "unknown", subclass: "error sending request for url (https://zero-trust-client.cloudflareclient.com/v0i2504161949/client_config)") (code 0)
+250624 17:29:00.929 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:29:00.932 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"getTunnelStatus"}
+250624 17:29:00.938 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] Starting DNS TXT record query...
+250624 17:29:00.939 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: doh, service mode: WARP
+250624 17:29:00.944 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:29:01.279 [INFO][1109.ScreenName.logScreen] overlapping_ip
+250624 17:29:02.277 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] DNS TXT record query completed in 1.3361010551452637 seconds.
+250624 17:29:02.281 [INFO][1109.MainViewModel.updateStatusAndInfo] Internet connection: true, tunnel connection status: connected, pause: none, trusted network: none, tunnel status: No captive portal, dns status: doh, service mode: WARP
+250624 17:29:02.290 [INFO][1109.UserDefaults.wrappedValue] Saved app_local_admin_code_date: nil
+250624 17:29:03.489 [INFO][1109.WarpApi+OverlapIp.getVirtualNetworks] Ended
+250624 17:29:04.551 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:04.554 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:05.072 [INFO][1109.ScreenName.logScreen] connection_options
+250624 17:29:05.949 [INFO][1109.ScreenName.logScreen] more_settings
+250624 17:29:09.153 [INFO][1109.ScreenName.logScreen] settings
+250624 17:29:09.928 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:09.931 [INFO][1109.SupportVisibleProtocol.feedbackType] Feedback Button: Not valid (teams(type: _cloudflareoneagent.TeamsType.account))
+250624 17:29:10.506 [INFO][1109.ScreenName.logScreen] more_settings
+250624 17:29:11.745 [INFO][1109.ScreenName.logScreen] device_posture
+250624 17:29:19.212 [INFO][1109.ScreenName.logScreen] more_settings
+250624 17:29:20.748 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] Starting DNS TXT record query...
+250624 17:29:20.749 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] Fetching updated tunnel stats
+250624 17:29:20.750 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"getWarpStats"}
+250624 17:29:20.792 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:20.797 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:20.811 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] tunnel stats sent: 89321 recieved: 321555 handshake: Optional(2025-06-24 17:28:54 +0000)  rtt: 226 loss: 0.43976778
+250624 17:29:20.818 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:20.820 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:21.322 [INFO][1109.ScreenName.logScreen] diagnostics
+250624 17:29:23.696 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] DNS TXT record query completed in 2.9448070526123047 seconds.
+250624 17:29:39.208 [INFO][1109.ScreenName.logScreen] debug_configuration
+250624 17:29:43.410 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] Starting DNS TXT record query...
+250624 17:29:43.411 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] Fetching updated tunnel stats
+250624 17:29:43.413 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"getWarpStats"}
+250624 17:29:43.461 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:43.465 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:43.479 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] tunnel stats sent: 91297 recieved: 326706 handshake: Optional(2025-06-24 17:28:54 +0000)  rtt: 226 loss: 0.4366197
+250624 17:29:43.486 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:43.488 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:43.991 [INFO][1109.ScreenName.logScreen] diagnostics
+250624 17:29:44.095 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] DNS TXT record query completed in 0.6847070455551147 seconds.
+250624 17:29:48.160 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"getDNSLogs"}
+250624 17:29:48.712 [INFO][1109.ScreenName.logScreen] dns_logs
+250624 17:29:58.736 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] Starting DNS TXT record query...
+250624 17:29:58.738 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] Fetching updated tunnel stats
+250624 17:29:58.741 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"getWarpStats"}
+250624 17:29:58.786 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:58.790 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:58.804 [INFO][1109.DiagnosticsViewModel.fetchWarpStats] tunnel stats sent: 91855 recieved: 327483 handshake: Optional(2025-06-24 17:28:54 +0000)  rtt: 226 loss: 0.4353268
+250624 17:29:58.809 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:58.812 [INFO][1109.Keychain.getKeychainData] Keychain item {web4app_app_shared_secret_configuration} is found.
+250624 17:29:59.318 [INFO][1109.ScreenName.logScreen] diagnostics
+250624 17:29:59.941 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"flushExtensionLogs"}
+250624 17:30:02.435 [INFO][1109.ServiceDNSStatusOperation.queryTXTRecord] DNS TXT record query completed in 3.7023669481277466 seconds.
+250624 17:30:05.745 [INFO][1109.ScreenName.logScreen] console_logs
+250624 17:30:09.805 [INFO][1109.TunnelManager.sendMessage] Sending message {"type":"flushExtensionLogs"}
+250624 17:30:10.532 [INFO][1109.ScreenName.logScreen] console_log_details
+250624 17:30:38.821 [INFO][1109.ScreenName.logScreen] console_logs
